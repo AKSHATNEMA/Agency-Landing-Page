@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root{
+    --backgroundcolor: hsl(213, 9%, 39%);
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.head1{
+    background-color: #37c3f1;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    padding: 5px auto;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.heading{
+
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+}
+
+nav{
+    width: 100%;
+    align-content: space-between;
+    margin: 0 0 0 55%;
+    font-family: "Barlow";
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.list{
+   text-align: right;
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+li{
+    padding: 10px auto;
+    border-radius: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header img{
+    position: relative;
+    margin-left: 12%;
+    margin-right: 12%;
+    z-index: 1;
+    margin-bottom: -5px;
+}
+
+.p1{
+   position: absolute;
+   font-family: "Fraunces";
+   letter-spacing: 7px;
+   font-weight: 900;
+   font-size: 50px;
+   color: white;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   z-index: 2;
+   left: 28%;
+}
+
+.arrow img{
+    position: absolute;
+    margin-left: 50%;
+    z-index: 2;
+    top: 45%;
+}
+.head2 , .head3,.head4{
+    position: relative;
+    display: flex;
+}
+
+.p2, .p3, .p4, .p5{
+    width: 50%;
+}
+.a1{
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 300px;
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 35px;
+}
+.content{
+    margin-left: 150px;
+    width: 300px;
+    font-family: "Barlow";
+    color: grey;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.learn{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 300px;
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 18px;
+}
+.learn a{
+    color: black;
+    text-decoration: underline solid yellow;
+}
+
+.image{
+    position: relative;
+    z-index: 1;
+}
+
+.con{
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    width: 40%;
+    top: 300px;
+    margin-left: 60px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    color: rgb(92, 85, 85);
+}
+.a2{
+    z-index: 2;
+    position: absolute;
+    width: 50%;
+    top: 250px;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 30px;
+    color: rgb(66, 60, 60);
+}
