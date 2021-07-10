@@ -48,7 +48,9 @@ nav {
   display: flex;
   margin-top: 30px;
 }
-
+.triangle-up{
+  display: none;
+}
 .list a{
   padding: 10px 20px 10px 20px;
   border-radius: 2px;
@@ -320,6 +322,14 @@ nav {
     top: 70px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+  .checkBtn:checked ~ ul::before {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 30px solid white;
+    padding: 10px;
+  }
   nav {
     margin-top: 0px;
     position: absolute;
@@ -329,6 +339,7 @@ nav {
   nav ul::before {
     position: absolute;
   }
+
   .list li{
     margin: 15px 10px 15px 10px;
   }
